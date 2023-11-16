@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+    <script src="app.js"> </script>
+</head>
+<body onload="getData()">
+  
+  <header>
+    <marquee behavior="" direction="">მოზარდთა სარეგისტრაციო ცხრილი /სახელი/ასაკი/საქმიანობა/სტუდენტობის ინდიკატორი/სამომავლო მიზნები/---by mariam pirvelashvili :)</marquee>
+</header>
+    <div class="p1">
+  <div class="firstblock"> 
+    <form class="input" action="" id="task" onsubmit="return false">
+
+    <input name ="name" type="text" placeholder="name">
+    <input name ="email" type="email" placeholder="email">
+    <input name ="password" type="password" placeholder="password">
+
+
+  
+     </div> 
+<div class="mariami">
+    <p> task status </p>
+    <select class="" name="selector"> 
+        <option>to do</option>
+        <option>in progress</option>
+        <option>done</option>
+
+    </select>
+   
+    
+<button onclick="addTask()">add</button>
+ </form>
+</div>
+
+
+  </div>      
+  
+  
+
+  
+<div class="main_conteiner">
+    <div class="header">
+        <div class="headertext">სახელი</div>
+        <div class="headertext">ასაკი</div>
+        <div class="headertext">საქმიანობა</div>
+        <div class="headertext">სტუდენტი</div>
+        <div class="headertext">მიზანი</div>
+    </div>
+<div class="conteiner">
+<div class="name" id="inpo"></div>
+<div class="age" id="inpo2"></div>
+<div class="job" id="inpo3"></div>
+<div class="stydent" id="inpo4"></div>
+<div class="goal" id="inpo5"></div>
+</div>
+</div>
+
+</body>
+</html>
